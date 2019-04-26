@@ -73,6 +73,8 @@ $myUpdateChecker = Puc_v4_Factory::buildUpdateChecker(
 	__FILE__,
 	'shop-the-post'
 );
+$myUpdateChecker->getVcsApi()->enableReleaseAssets();
+
 
 /**
  * Begins execution of the plugin.
