@@ -16,7 +16,7 @@
  * Plugin Name:       Shop the Post
  * Plugin URI:        https://munichparisstudio.com
  * Description:       Add affiliate products and shopping widgets to your posts to provide an easy way of shopping to your readers.
- * Version:           1.0.0
+ * Version:           1.0.1
  * Author:            MunichParis Studio
  * Author URI:        https://munichparisstudio.com
  * License:           GPL-2.0+
