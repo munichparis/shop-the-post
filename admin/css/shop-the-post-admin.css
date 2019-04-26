@@ -1,0 +1,80 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+ /* Metaboxes 
+------------------ */
+.spacer {
+  height: 0px;
+}
+
+.product-row input, .product-row textarea {
+  width: 90%;
+}
+
+.add-row-container {
+  margin-top: 1.5em;
+  margin-bottom: 2.5em;
+  text-align: center;
+}
+.add-row-container a, .remove-row {
+  color: #0c0c0c;
+  text-decoration: none;
+}
+
+.add-row-container a span.dashicons, .remove-row a span.dashicons {
+  font-size: 2.5em;
+}
+
+.add-row-container a:focus, .add-row-container a:active, .remove-row a:focus, .remove-row a:active {
+  border: none!important;
+  outline: none!important;
+}
+
+.add-row-container .dashicons-plus {
+  padding: 0.25em;
+  width: auto;
+  height: auto;
+}
+
+.bulk-import-form textarea {
+  width: 100%;
+  height: 120px;
+}
+
+.partials, .shortcode {
+  padding: 0.5em 1.5em;
+}
+
+.nav-tab-active {
+  background-color: white;
+}
+
+.uploaded-image {
+  margin: 1em auto;
+  margin-left: 0;
+  display: block;
+}
+#repeatable-fieldset-rewardstyle .uploaded-image {
+  margin: 1em auto;
+}
+.upload_image_button {
+  margin-left: 0!important;
+  display: table!important;
+}
+.link-label {
+  margin-top: -1.3em;
+}
+
+.product-row input.product-url {
+  width: 100%;
+}
+
+#shopstyle .iamge-row {
+  text-align: center;
+}
+
+.widget-preview {
+  margin: 2.5em auto;
+}
