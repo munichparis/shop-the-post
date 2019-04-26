@@ -65,6 +65,16 @@ register_deactivation_hook( __FILE__, 'deactivate_shop_the_post' );
 require plugin_dir_path( __FILE__ ) . 'includes/class-shop-the-post.php';
 
 /**
+* Plugin update checker
+*/
+require 'plugin-update-checker-4.6/plugin-update-checker.php';
+$myUpdateChecker = Puc_v4_Factory::buildUpdateChecker(
+	'https://github.com/munichparis/shop-the-post',
+	__FILE__,
+	'shop-the-post'
+);
+
+/**
  * Begins execution of the plugin.
  *
  * Since everything within the plugin is registered via hooks,
